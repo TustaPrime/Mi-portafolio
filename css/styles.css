@@ -1,0 +1,88 @@
+body#portafolio{
+    background: url('/img/paisaje5.jpg') no-repeat center center/cover;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: none;
+    padding: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    color: white;
+    padding: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    border-radius: 40em;
+    margin: none;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: none;
+}
+nav ul li a{
+    margin: 2em;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+section{
+    padding: 5em;
+    margin: -1px 0;
+}
+section#Quién-soy{
+    background-image: url('/img/paisaje3.jpg');
+    color: white;
+    
+}
+section#Cuáles-son-mis-servicios{
+    background: linear-gradient(to bottom right, #5fe0e9, #2ed32e);
+    color:white
+}
+section#Comó-me-puedes-contactar{
+    background: linear-gradient(to bottom right, #c5bb26, #c04f1ac5);
+    color:white
+}
+section#Descubre-más-acerca-de-mi{
+    background: linear-gradient(to bottom right, #3d6e2148, #dff70f);
+    color:white
+}
+section#Comó-me-puedes-contactar form{
+    display: flex;
+    flex-direction: column;
+}
+section#Comó-me-puedes-contactar label{
+    margin: 1em 0.5em 0.5em;
+}
+section#Comó-me-puedes-contactar input, section#Comó-me-puedes-contactar textarea{
+    padding: 0.4em;
+    margin-bottom: 1.5em;
+    border: 0.1px solid #000000;
+    border-radius: 5px;
+}
+section#Comó-me-puedes-contactar input[type="submit"] {
+    background: #32bbbbd3;
+    color: #000000;
+    padding: 0.6em;
+    cursor: pointer;
+}
+footer{
+    background: #32bbbbd3;
+    text-align: center;
+    padding: 0.5em 0;
+    margin-top: 0;
+}
+footer p{
+    margin: 0;
+}
